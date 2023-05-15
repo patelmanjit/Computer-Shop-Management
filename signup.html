@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style2.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form action="reg.php" method="POST">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Firstname <span style="color:red">*</span></span>
+            <input  name="Firstname" type="text" placeholder="Enter your firstname" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Lastname<span style="color:red">*</span></span>
+            <input name="Lastname" type="text" placeholder="Enter your lastname" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email<span style="color:red">*</span></span>
+            <input name="Email" type="text" placeholder="Enter your email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password<span style="color:red">*</span></span>
+            <input name="Password" type="text" placeholder="Enter your password" max-length="8"required>
+          </div>
+          <div class="input-box">
+            <span class="details">Contact<span style="color:red">*</span></span>
+            <input name="Contact" type="text" placeholder="Enter your number" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address<span style="color:red">*</span></span>
+            <input name="Address" type="text" placeholder="Enter your address" required>
+          </div>
+        </div>
+
+        <div class="bg"></div>
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
+

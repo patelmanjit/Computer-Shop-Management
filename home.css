@@ -1,0 +1,125 @@
+.navbar{
+    margin-bottom: 0px;
+}
+
+#bannerImage{
+    padding-top:15px;
+    padding-bottom:800px;
+    /*margin-bottom: 320px;*/
+    text-align:center;
+    color:#f8f8f8;
+    background-image:url("intro-bg_1.jpg");
+    background-size:100%;
+   
+}
+
+#bannerContent{
+    position:relative;
+    padding-top:6%;
+    padding-bottom:6%;
+    margin-top:12%;
+    margin-bottom:12%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:660px;
+}
+
+footer{
+    background-color:#101010;
+    color:#9d9d9d;
+    font-size:14px;
+    font-weight:bold;
+    padding:10px;    
+    bottom:0;
+}
+
+
+ 
+
+.footer{
+    background-color:bisque;
+ }
+ 
+ .footer .box-container{
+    max-width: 1200px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:3rem;
+ }
+ 
+ .footer .box-container .box h3{
+    text-transform: uppercase;
+    color:var(--black);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+ }
+ 
+ .footer .box-container .box p,
+ .footer .box-container .box a{
+    display: block;
+    font-size: 1.7rem;
+    color:var(--light-color);
+    padding:1rem 0;
+ }
+ 
+ .footer .box-container .box p i,
+ .footer .box-container .box a i{
+    color:var(--black);
+    padding-right: .5rem;
+ }
+ 
+ .footer .box-container .box a:hover{
+    color:var(--black);
+    text-decoration: underline;
+ }
+ 
+ .footer .credit{
+    text-align: center;
+    font-size: 2rem;
+    color:var(--light-color);
+    border-top: var(--border);
+    margin-top: 2.5rem;
+    padding-top: 2.5rem;
+ }
+ 
+ .footer .credit span{
+    color:var(--purple);
+ }
+
+html { 
+    min-height:100%;
+    position:relative;   
+} 
+
+.footer { 
+    position: absolute; 
+    bottom:0; 
+    right:0;
+    left:0;
+}
+
+@media (min-width:320px){
+    #autoResize{
+        font-size:12px;
+    }
+}
+@media (min-width:481px){
+    #autoResize{
+        font-size:16px;
+    }
+}
+@media (min-width:641px){
+    #autoResize{
+        font-size:18px;
+    }
+}
+@media (min-width:961px){
+    #autoResize{
+        font-size:20px;
+    }
+}
+@media (min-width:1000px){
+    #autoResize{
+        font-size:26px;
+    }
+}

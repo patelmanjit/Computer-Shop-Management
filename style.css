@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+    /*background-color:#eee;*/
+}
+
+
+.logo
+{
+    width:20%;
+    display:flex;
+    align-items:center;
+}
+.logo img
+{
+    width:40%;
+    border:3px solid blue;
+    border-radius:50px;
+}
+.navbar
+{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:sticky;
+    overflow: hidden;
+    top:0;
+    cursor:pointer;
+  /*  background-color:#333;*/
+  background-color: chocolate;
+ /* background-color:cornflowerblue;*/
+}
+.nav-list
+{
+   width:43%; 
+   display:flex;
+   
+   align-items:center;
+   justify-content:center;
+}
+.nav-list li
+{
+    list-style-type:none;
+    padding:30px 10px; 
+  
+}
+.nav-list li a
+{
+    text-decoration:none;
+    color:bisque;
+    font-family:serif;
+    font-weight: bold;
+    transition:0.4s ease-in-out;
+    font-size:100%;
+    
+}
+.nav-list li :hover{
+  color:black;
+}
+
+/* */ 
+.dropdown-content {
+  display: none;
+}
+
+/* This code for right navigation*/
+
+.rightNav
+{
+    width:57%;
+    text-align:right;
+    align-items:right;
+    font-size:150%;
+}
+
+.rightNav .search-container {
+  float: right;
+  text-align:right;
+  align-items:right;
+}
+
+.rightNav input:hover{
+  border: orangered;
+  
+}
+.rightNav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.rightNav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.rightNav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .rightNav .search-container {
+    float: none;
+  }
+  .rightNav a, .rightNav input[type=text], .rightNav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .rightNav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+.box-main{
+  background-image: url("intro-bg_1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 680px;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+}
+
